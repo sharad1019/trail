@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: "mont";
+}
+.sec1 img{
+    width: 100%;
+}
+.nav-color{
+    background-color: #000000e3;
+}
+.nav-color a{
+    color: white;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+.nav-color a:hover{
+    color:#04a72773 ;
+    border-radius: 10px;
+}
+#toggl{
+    color: white
+}
+.sec2{
+    margin-top: 100px;
+}
+.jumbotron{
+    background-image: url(image/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 25px;
+    border-radius: 0px;
+}
+.box-color{
+    background-color: rgba(255, 255, 255, 0.849);
+    transition: 0.8s;
+    border-radius: 5px;
+    text-align: center;
+}
+.sec2{
+    margin-top: 100px;
+}
+.sec2 a{
+    color: rgb(46, 0, 252);
+    display: block;
+    margin-top: 20px ;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.input{
+    background: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(93, 107, 95);
+    margin-top: 25px;
+}
+.sec2 h4{
+    color: rgb(109, 230, 155);
+}
+.sec2 h1:hover{
+    margin-right: -20px;
+    cursor: pointer;
+}
+.sec2 h1{
+    color: rgb(109, 230, 155);
+    transition: 0.5s;
+}
+.sec3{
+    display: flex;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+.f1{
+    flex: 3;
+    box-sizing: border-box;
+    position: relative;
+}
+.f1 img{
+    margin-top: 75px;
+    width: 100%;
+    float: right;
+}
+.f2{
+    margin-top: -100px;
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+}
+.f2 img{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    top: 0;
+    margin: auto;
+    animation: up 5s infinite;
+}
+@keyframes up{
+    0%{margin-right: 0px;}
+    25%{margin-right: -15px;}
+    50%{margin-right: 0px;}
+    70%{margin-right: 15px;}
+    100%{margin-right: 0px;}
+}
+.f3{
+    flex: 3;
+    box-sizing: border-box;
+    position: relative;
+}
+.f3 img{
+    margin-top: 75px;
+    width: 100%;
+}
+footer a i{
+    margin: 0px 10px 0px 10px;
+    transition: 0.3s;
+
+}
+footer a i:hover{
+    font-size: 18px;
+}
+footer a:hover{
+    color: white;
+}
+footer li{
+    margin-top: 20px;
+}
+footer li a{
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+footer li a:hover{
+    text-decoration: none;
+    color: rgb(84, 163, 253);
+    margin-right: -15px;
+}
+.card-img{
+    transition: 0.5s;
+
+}
+.card-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.card-body{
+    overflow: hidden;
+}
+footer p{
+    font-weight: 200;
+}
+footer h5{
+    font-weight: 600;
+}
